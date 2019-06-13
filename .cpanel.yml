@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home4/newjesa7/public_html/nicholasschaefer
-    - /bin/cp -R BootStrap-Portfolio $DEPLOYPATH
+    - export DEPLOYPATH=/home4/newjesa7/public_html/nicholasschaefer/
+    - /bin/cp * $DEPLOYPATH
