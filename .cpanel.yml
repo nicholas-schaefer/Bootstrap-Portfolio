@@ -2,4 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home4/newjesa7/public_html/nicholasschaefer/
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH #copy all from folder root
+    - /bin cp /assets/* $DEPLOYPATH #copy all from sub folder root
